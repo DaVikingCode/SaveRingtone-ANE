@@ -28,8 +28,6 @@ package com.davikingcode.nativeExtensions.saveRingtone {
 
 			var sourceURL:String = getNativePath(source);
 
-			trace(sourceURL);
-
 			extensionContext.call("copyRingtoneTo", sourceURL, destinationFileName);
 		}
 

@@ -36,16 +36,12 @@ public class CopyRingtoneToFunction implements FREFunction {
 
 	public void copy(String src, String destinationFileName) throws IOException {
 
-		Log.d("ANE", "copy method");
-
 		InputStream in = null;
 		OutputStream out = null;
 
 		try {
 			
 			File sdCard = Environment.getExternalStorageDirectory();
-			
-			Log.d("ANE", sdCard.getAbsolutePath());
 			
 			File dir = new File (sdCard.getAbsolutePath() + "/Ringtones/");
 			
@@ -79,7 +75,5 @@ public class CopyRingtoneToFunction implements FREFunction {
 			
 			Log.e("ANE", e.getMessage());
 		}
-
-		Log.d("ANE", "copied");
 	}
 }
