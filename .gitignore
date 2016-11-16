@@ -1,0 +1,14 @@
+.project
+.settings
+*.swf
+*.tmp
+bin/tmp
+*.apk
+*.stamp
+android/.classpath
+android/AndroidManifest.xml
+android/bin
+android/gen
+android/proguard-project.txt
+android/project.properties
+android/res

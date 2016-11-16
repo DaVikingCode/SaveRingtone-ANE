@@ -1,0 +1,23 @@
+<extension xmlns="http://ns.adobe.com/air/extension/3.5">
+	<id>com.davikingcode.nativeExtensions.SaveRingtone</id>
+	<versionNumber>0.1</versionNumber>
+	<platforms>
+		<platform name="Android-ARM">
+			<applicationDeployment>
+				<nativeLibrary>SaveRingtoneAndroidExtension.jar</nativeLibrary>
+				<initializer>com.davikingcode.nativeExtensions.saveRingtone.SaveRingtoneExtension</initializer>
+				<finalizer>com.davikingcode.nativeExtensions.saveRingtone.SaveRingtoneExtension</finalizer>
+			</applicationDeployment>
+		</platform>
+		<platform name="Android-x86">
+			<applicationDeployment>
+				<nativeLibrary>SaveRingtoneAndroidExtension.jar</nativeLibrary>
+				<initializer>com.davikingcode.nativeExtensions.saveRingtone.SaveRingtoneExtension</initializer>
+				<finalizer>com.davikingcode.nativeExtensions.saveRingtone.SaveRingtoneExtension</finalizer>
+			</applicationDeployment>
+		</platform>
+		<platform name="default">
+			<applicationDeployment/>
+		</platform>
+	</platforms>
+</extension>
